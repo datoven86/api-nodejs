@@ -1,0 +1,31 @@
+{
+  "name": "api-nodejs",
+  "version": "1.0.0",
+  "description": "api-nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datoven86/api-nodejs.git"
+  },
+  "author": "Daniel Ventero [datoven86@hotmail.com]",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/datoven86/api-nodejs/issues"
+  },
+  "homepage": "https://github.com/datoven86/api-nodejs#readme",
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "nodemon": "^1.17.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.3"
+  }
+}
