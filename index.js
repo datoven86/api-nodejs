@@ -1,4 +1,4 @@
-const server = require('./lib/server/express');
+const server = require('./lib/server/restify');
 const db = require('./lib/mongo');
 const conf = require('./config');
 
@@ -9,4 +9,3 @@ const init = async () => {
 };
 
 init();
-

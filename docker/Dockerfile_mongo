@@ -1,0 +1,5 @@
+FROM mongo:3.6.3-jessie
+ 
+ADD run_mongo.sh /run_mongo.sh
+ 
+CMD ["/run_mongo.sh"]
